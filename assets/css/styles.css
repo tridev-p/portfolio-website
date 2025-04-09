@@ -560,6 +560,18 @@ body.dark-theme {
   row-gap: 2rem;
 }
 
+.work__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: .25rem;
+}
+
+/* Change bullet point text color in work.html */
+.work__description li {
+    color: var(--white-color); /* Set bullet point text color to white */
+    list-style-type: disc; /* Ensure bullet points are visible */
+    margin-left: 20px; /* Add spacing for better readability */
+}
+
 .work__link {
   display: inline-block;
   position: relative;
