@@ -565,6 +565,7 @@ body.dark-theme {
   margin-bottom: .25rem;
   color: var(--text-color);  /* Use dynamic text color */
   font-weight: var(--font-semi-bold); /* Optional: Make it bold for emphasis */
+  text-decoration: underline; /* Add underline to the title */
 }
 
 /* Change bullet point text color in work.html */
