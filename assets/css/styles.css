@@ -569,7 +569,7 @@ body.dark-theme {
 
 /* Change bullet point text color in work.html */
 .work__description li {
-    color: var(--white-color); /* Set bullet point text color to white */
+    color: var(--first-color); /* Set bullet point text color to white */
     list-style-type: disc; /* Ensure bullet points are visible */
     margin-left: 20px; /* Add spacing for better readability */
 }
