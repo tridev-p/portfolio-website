@@ -563,15 +563,16 @@ body.dark-theme {
 .work__title {
   font-size: var(--h2-font-size);
   margin-bottom: .25rem;
-  color: var(--first-color); /* Matches the Contact Me button color */
+  color: var(--text-color);  /* Use dynamic text color */
   font-weight: var(--font-semi-bold); /* Optional: Make it bold for emphasis */
 }
 
 /* Change bullet point text color in work.html */
 .work__description li {
-    color: var(--first-color); /* Set bullet point text color to white */
+    color: var(--text-color); /* Use dynamic text color */
     list-style-type: disc; /* Ensure bullet points are visible */
     margin-left: 20px; /* Add spacing for better readability */
+    line-height: 1.6; /* Improve readability */
 }
 
 .work__link {
